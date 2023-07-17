@@ -31,8 +31,6 @@ spec:
         ports:
         - containerPort: 3000
         env:
-        - name: FLAGD_PORT
-          value: "8030"
         - name: OTEL_EXPORTER_OTLP_ENDPOINT
           value: "http://otel-collector.keptn-lifecycle-toolkit-system:4317"     
         - name: OTEL_SERVICE_NAME
