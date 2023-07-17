@@ -26,7 +26,7 @@ spec:
     spec:
       containers:
       - name: demoapp
-        image: bgogoi/kcddemo:V1.1
+        image: bgogoi/kcddemo:v1
         imagePullPolicy: Always
         ports:
         - containerPort: 3000
